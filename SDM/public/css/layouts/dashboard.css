@@ -1,0 +1,150 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+.vl {
+    border-left: 3.5px solid gray;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.main_box{
+    height: 700px;
+}
+
+
+input {
+    border: none;
+    outline: none;
+}
+
+.anime {
+    background-color: transparent;
+    transition: all ease-in-out 200ms;
+}
+
+.anime:hover {
+    background-color: white;
+    transition: all ease-in-out 200ms;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+    justify-content: center;
+    align-items: center;
+    z-index: 100 !important;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 82%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.54);
+}
+
+/* Modal Header */
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h2 {
+    margin: 0;
+}
+
+/* Close Button */
+.close-btn {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+/* Selected Columns Display */
+.selected-columns {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.selected-column {
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* #filterModal{
+    z-index: 1 !important;
+    background:  #d71717 !important;
+} */
+/* 
+button:hover {
+    background-color: #218838;
+} */
+
+.available-fields {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+
+.close {
+    font-size: 25px;
+    position: relative;
+    right: -100%;
+    top: -35px;
+    margin-left: 5px;
+}
+
+.dynamically_added_column {
+    background-color: lightgray;
+    padding: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.constraints-area {
+    overflow-y: scroll;
+}

@@ -1,0 +1,48 @@
+.loginForm {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.input_field {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.loginForm input {
+    width: 400px;
+    height: 45px;
+    border-radius: 12px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+#back {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    width: 35%;
+    height: 35px;
+    border-radius: 12px;
+    background-color: #FFEED9;
+    border: none;
+    font-size: 25px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    padding-top: 2px;
+}
+
+.Resend {
+    margin-top: 30px;
+    font-size: 18px;
+}

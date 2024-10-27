@@ -1,0 +1,166 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url('../../img/loginbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.left {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav a , #logoutLink{
+    font-size: 20px;
+    text-decoration: none;
+    color: #696969;
+    font-weight: 900;
+}
+
+
+.studentViewNav, .analyticsNav, .emailNav, .studentsManageNav, .logout {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all ease-in 0.4s;
+}
+
+.studentViewNav:hover, 
+.analyticsNav:hover, 
+.emailNav:hover, 
+.studentsManageNav:hover, 
+.logout:hover {
+    background-color: #FFFDFA;
+}
+
+.logout {
+    margin-top: 22vh;
+}
+
+#analyticsimg, #emailimg, #dbimg, #logoutimg {
+    margin-right: 15px;
+}
+
+.right {
+    width: 78vw;
+    height: 88vh;
+    background-color: #FFFDFA;
+    border-radius: 20px;
+}
+
+.rightTop {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.rightTopLeft {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#searchimg {
+    margin: 3px;
+    margin-left: 5px;
+    width: 35px;
+    height: 33px;
+}
+
+.searchBar {
+    width: 30vw;
+    height: 37px;
+    border: solid 2px #A0A0A0;
+    border-radius: 10px;
+}
+
+.filter {
+    width: 37px;
+    height: 37px;
+    border: solid 2px #A0A0A0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter img {
+    width: 31px;
+}
+
+.rightTopRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    gap: 20px;
+}
+
+.adminProfile {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.adminImg {
+    width: 50px;
+    height: 50px;
+    background-color: #696969;
+    border-radius: 50%;
+}
+
+.adminDetail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#adminRole {
+    color:#696969;
+}
+
+#rightTopRightVr {
+    width: 3px;
+    height: 45px;
+    border-radius: 10%;
+    background-color: #696969;
+}
+
+#addStudentsimg {
+    margin-top: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+

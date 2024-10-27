@@ -1,0 +1,63 @@
+.table {
+    font-size: 13px;
+}
+
+.table_wrap {
+    z-index: 99;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: 530px;
+    max-width: 800px;
+
+}
+
+
+.table {
+    z-index: 1;
+}
+
+
+.table_head {
+    background-color: #75C1FF;
+}
+
+
+th:not(:first-child), 
+td:not(:first-child) {
+    min-width: 100px;
+}
+
+td:first-child, tr:first-child{
+    min-width: 50px;
+}
+
+td:nth-child(2), tr:nth-child(2){
+    min-width: 150px;
+}
+
+td:nth-child(8), tr:nth-child(8){
+    min-width: 120px;
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
